@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevFx</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="src/css/index.css" />
+  </head>
+  <body>
+    <section class="noJs">
+      <h1>Atenção!!</h1>
+      <p>Ative o JavaScript do seu navegador.</p>
+    </section>
+
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item active" data-tab="home">lar</li>
+          <li class="nav-item" data-tab="about">sobre</li>
+          <li class="nav-item" data-tab="services">serviços</li>
+          <li class="nav-item" data-tab="portfolio">portifólio</li>
+          <li class="nav-item" data-tab="contact">contato</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="sessions">
+      <section id="home" class="tab active">
+        <div class="home-container">
+          <h2 class="home-title">DevFxx!</h2>
+          <p class="home-text">
+            Sou um desenvolvedor front-end em formação, com foco em criar sites
+            rápidos, responsivos e com ótimo design. Domino HTML, CSS e
+            JavaScript, React e estou sempre aprendendo novas tecnologias para
+            entregar o melhor resultado.
+          </p>
+          <article class="social-links">
+            <i class="bi bi-github social-icon"></i>
+            <i class="bi bi-instagram social-icon"></i>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="tab">
+        <div class="tab-container about-container">
+          <h2 class="tab-title">Sobre Mim</h2>
+          <p class="about-text">
+            Desenvolvedor front-end apaixonado por criar experiências digitais
+            incríveis. Com formação em desenvolvimento web e 1 ano de
+            experiência no mercado, trago soluções criativas e eficientes para
+            cada projeto.
+          </p>
+          <div class="skills-container">
+            <h3 class="skills-title">Minhas Habilidades</h3>
+            <ul class="skills-list">
+              <li class="skill-item">HTML5</li>
+              <li class="skill-item">CSS3</li>
+              <li class="skill-item">JavaScript</li>
+              <li class="skill-item">React</li>
+              <li class="skill-item">Responsive Design</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="tab">
+        <div class="tab-container services-container">
+          <h2 class="tab-title">Serviços</h2>
+          <div class="services-grid">
+            <div class="service-card">
+              <h3 class="service-title">Desenvolvimento Web</h3>
+              <p>
+                Sites responsivos e otimizados com as melhores tecnologias do
+                mercado.
+              </p>
+            </div>
+            <div class="service-card">
+              <h3 class="service-title">UI/UX Design</h3>
+              <p>
+                Interfaces intuitivas e agradáveis com foco na experiência do
+                usuário.
+              </p>
+            </div>
+            <div class="service-card">
+              <h3 class="service-title">Otimização</h3>
+              <p>
+                Aceleração de sites e melhoria de performance para melhor
+                rankeamento.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="tab">
+        <div class="tab-container portfolio-container">
+          <h2 class="tab-title">Portfólio</h2>
+          <p class="portfolio-description">
+            Alguns dos meus trabalhos recentes
+          </p>
+          <div class="portfolio-grid">
+            <div class="portfolio-item">Projeto 1</div>
+            <div class="portfolio-item">Projeto 2</div>
+            <div class="portfolio-item">Projeto 3</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="tab">
+        <div class="tab-container contact-container">
+          <h2 class="tab-title">Contato</h2>
+          <form class="contact-form">
+            <div class="form-group">
+              <label class="form-label">Nome</label>
+              <input type="text" class="form-input" />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-input" />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Mensagem</label>
+              <textarea class="form-input form-textarea"></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Enviar Mensagem</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="src/js/index.js"></script>
+</html>
